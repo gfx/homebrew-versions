@@ -98,9 +98,9 @@ class Elasticsearch17 < Formula
           <key>WorkingDirectory</key>
           <string>#{var}</string>
           <key>StandardErrorPath</key>
-          <string>#{prefix}/var/log/elasticsearch17.log</string>
+          <string>#{var}/log/elasticsearch17.log</string>
           <key>StandardOutPath</key>
-          <string>#{prefix}/var/log/elasticsearch17.log</string>
+          <string>#{var}/log/elasticsearch17.log</string>
         </dict>
       </plist>
     EOS
